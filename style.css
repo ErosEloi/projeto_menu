@@ -1,0 +1,61 @@
+body{
+    background-color: #C5C1C0;
+    
+}
+
+.container{
+    background-color: #FFFFFF;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.title{
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.principal{
+    background-color: #F5F5F5;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    
+    border:#C5C1C0;
+    border-radius: 4px;
+    box-shadow: 0, 8px, 16px, 16px rgb(0, 0, 0, 0.10);
+}
+
+.pratos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.prato{
+    padding: 20px;
+}
+
+.acompanhamento{
+    background-color: #F5F5F5;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0, 8px, 16px, 0 rgb(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.acomp{
+    padding: 20px;
+}
+
+.dados{
+    background-color: #F5F5F5;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
