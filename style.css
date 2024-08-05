@@ -3,11 +3,31 @@ body {
 
 }
 
+button{
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    width: 880px;
+    height: 40px;
+    color: white    ;
+    background-color: #0069D7;
+    
+}
+
+button:focus{
+    cursor: pointer;
+    
+}
+
 .container {
     background-color: #FFFFFF;
     width: 900px;
     margin: auto;
     padding: 20px;
+    text-align: center;
     
 }
 
@@ -62,4 +82,10 @@ body {
     row-gap: 10px;
     box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.384);
     border-radius: 4px;
+}
+
+.calcular{
+    
+    
+    text-align: center;
 }
