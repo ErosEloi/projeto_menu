@@ -1,61 +1,65 @@
-body{
+body {
     background-color: #C5C1C0;
-    
+
 }
 
-.container{
+.container {
     background-color: #FFFFFF;
     width: 900px;
     margin: auto;
     padding: 20px;
+    
 }
 
-.title{
+.title {
     justify-content: center;
     padding: 30px;
     text-align: center;
 }
 
-.principal{
+.principal {
     background-color: #F5F5F5;
     justify-content: center;
     padding: 30px;
+    margin: 20px;
     text-align: center;
-    
-    border:#C5C1C0;
+    box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.384);
     border-radius: 4px;
-    box-shadow: 0, 8px, 16px, 16px rgb(0, 0, 0, 0.10);
 }
 
-.pratos{
+.pratos {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+
 }
 
-.prato{
+.prato {
     padding: 20px;
 }
 
-.acompanhamento{
+.acompanhamento {
     background-color: #F5F5F5;
     justify-content: center;
     padding: 30px;
+    margin: 20px;
     text-align: center;
-    box-shadow: 0, 8px, 16px, 0 rgb(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.384);
     border-radius: 4px;
 }
 
-.acomp{
+.acomp {
     padding: 20px;
 }
 
-.dados{
+.dados {
     background-color: #F5F5F5;
     justify-content: center;
     text-align: center;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.384);
+    border-radius: 4px;
 }
