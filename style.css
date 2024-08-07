@@ -3,8 +3,8 @@ body {
 
 }
 
-button{
-    
+button {
+
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -12,14 +12,14 @@ button{
     border-radius: 4px;
     width: 880px;
     height: 40px;
-    color: white    ;
+    color: white;
     background-color: #0069D7;
-    
+
 }
 
-button:focus{
+button:focus {
     cursor: pointer;
-    
+
 }
 
 .container {
@@ -28,7 +28,8 @@ button:focus{
     margin: auto;
     padding: 20px;
     text-align: center;
-    
+    justify-content: space-around;
+
 }
 
 .title {
@@ -56,6 +57,17 @@ button:focus{
 
 .prato {
     padding: 20px;
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.prato img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 .acompanhamento {
@@ -70,6 +82,17 @@ button:focus{
 
 .acomp {
     padding: 20px;
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.acomp img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 .dados {
@@ -84,8 +107,8 @@ button:focus{
     border-radius: 4px;
 }
 
-.calcular{
-    
-    
+.calcular {
+
+
     text-align: center;
 }
